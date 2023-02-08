@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightblue;
+}
+header{
+    background-color: lightgray;
+    border: 5px solid black;
+    width:auto;
+    padding: 10px;
+    margin: 10px;
+}
+nav > a {
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+ h1#tp{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 3em;
+    text-align: center;
+}
+main{
+    border: 5px solid black;
+    width:auto;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+section{
+    border: 5px solid black;
+    width:auto;
+    padding: 10px;
+    margin: 10px;
+}
+article{
+    border: 5px solid black;
+    width:auto;
+    padding: 10px;
+    margin: 10px;
+}
+aside{
+    border: 5px solid black;
+    width:auto;
+    padding: 10px;
+    margin: 10px;
+}

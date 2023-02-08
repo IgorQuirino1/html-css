@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a {
+    color: gold;
+    text-decoration: none;
+}
+a:hover {
+       text-decoration: underline; 
+
+}
+li::first-letter {
+    font-size: 2em;
+    font-weight: bolder;
+}

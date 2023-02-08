@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens</title>
+</head>
+<body>
+    
+    <picture>
+            <source media="(max-width:750px )" srcset="imagens/pequena.png" type="image/png">
+            <source media="(max-width:1050px )" srcset="imagens/media.png" type="image/png">
+            <img src="imagens/grande.png" alt="">
+    </picture>    
+    <h1>Testando audios</h1>
+    <p>Aprendendo a usar audios com o html</p>
+    <audio controls preload="metadata">
+     <source src="midia/audioteste.mp4" type="audio/mp4">
+     <source src="midia/testeaudio.mp3" type="audio/mpeg">
+     <source src="midia/testeaudio.wav" type="audio/wav">
+
+    </audio>
+</body>
+</html>
