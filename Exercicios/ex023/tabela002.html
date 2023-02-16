@@ -13,8 +13,11 @@
         width: 500px;
          border-collapse: collapse;
         margin: auto;
+        font-size: 1.5em;
+        position: relative;
         
     }
+
     h1{
         text-align: center;
         padding: 10px;
@@ -25,9 +28,17 @@
         
 
     }
+    thead>tr>th{
+        position: sticky;
+        top: -1px;
+        background-color: gray;
+    }
     td,th{
         border: 0.5px solid black;
         padding: 10px;
+    }
+    tbody > tr:nth-child(even){
+        background-color: lightblue;
     }
     .n{
         text-align: right;
@@ -40,8 +51,8 @@
     <table>
         <thead>
             <tr>
-                <th>Unidade federativa</th>
-                <th>Populção</th>
+                <th scope="col">Unidade federativa</th>
+                <th scope="col">Populção</th>
             </tr>
         </thead>
         <tbody>
