@@ -7,6 +7,45 @@
     <title>Document</title>
 </head>
 <body>
+
+    <H1> Exemplo de Formulário</H1>
+    <form action="ex.php" method="get">
+
+        <label for="iestado">Estado</label>
+        <select name="estados" id="iestados">
+        <optgroup label="Região Sudeste">
     
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="SP">São Paulo</option>
+            <option value="MG">Minas gerais</option>
+            <option value="ES">Espirito Santo</option>  
+        </optgroup>
+        
+        <optgroup label="Região Sul">
+            <option value="RS">Rio grande do Sul</option>
+            <option value="SC">Santa catarina</option>
+            <option value="PR">Paraná</option>
+        </optgroup>
+        </select><br><br>
+
+        <label for="iprof">Profissão</label>
+        <input type="text" name="prof" id="iprof" list="list">
+        <datalist id="list">
+            <option >Administrador</option>
+            <option>Medico</option>
+            <option>Conzinheiro</option>
+            <option>Dentista</option>
+            <option>Cirugião</option>
+            <option>Desenvolvedor Front-End</option>
+            <option>Desenvolvedor Back-End</option>
+            <option>Full stack</option>
+            <option>Mobile</option>
+            <option>Atriz</option>
+            <option>Jogador de Foot Table</option>
+        </datalist><br><br>
+        <label for="imsg">Mande sua duvida por aqui</label><br>
+        <textarea name="msg" id="imsg" cols="30" rows="10" maxlength="20" placeholder="escreva aqui"  style="resize: none" ></textarea><br>
+        <input type="submit" value="Enviar">
+    </form>
 </body>
 </html>
