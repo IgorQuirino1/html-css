@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/* Estilo para telas */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: lightslategray;
+    padding: 10px;
+}
+header>h1{
+    text-align: center;
+    padding: 20px;
+}
+li{
+  display: inline-block;
+  padding: 15px;
+ border-radius: 8px;
+
+}
+
+li:hover{
+    background-color: rgb(69, 78, 87);
+    color: white;
+}
+section{
+        margin: auto;
+        width: 600px;
+        font-size: 1.2em;
+}
+section>h2{
+    text-align: center;
+    padding: 10px;
+}
+p{
+    line-height: 1.5em;
+    padding: 10px;
+    text-align: justify;
+}

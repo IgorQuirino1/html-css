@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/* Tela de Impressoras */
+*{
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+
+header>menu{
+    display: none;
+}
+header{
+        font-size: 1.5em;
+}
+h1{
+    text-align: center;
+    font-size: 1.5em;
+}
+section{
+    width: 100%;
+    font-size: 1.5em;
+}
+p{
+    line-height: 1.3em;
+
+}
